@@ -1,0 +1,32 @@
+{
+   "name":"genoset-sickel-cell-anemia",
+   "description":"Determines if a genome is male (GS228)",
+   "version":"0.0.1",
+   "homepage":"http://github.com/arvindr21/genoset-sickel-cell-anemia",
+   "repository":"git://github.com/arvindr21/genoset-sickel-cell-anemia.git",
+   "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+   "main":"./index.js",
+   "tags": ["genome", "genoset", "gs228", "dna", "genetics", "genes", "gender"],
+   
+   "dependencies":{
+      "gql":"*"
+   },
+   "devDependencies":{
+      "mocha":"*",
+      "should":"*",
+      "JSONStream":"*",
+      "event-stream":"*"
+   },
+   "scripts":{
+      "test":"mocha"
+   },
+   "engines":{
+      "node":">= 0.4.0"
+   },
+   "licenses":[
+      {
+         "type":"MIT",
+         "url":"http://github.com/arvindr21/genoset-sickel-cell-anemia/raw/master/LICENSE"
+      }
+   ]
+}

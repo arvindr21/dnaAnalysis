@@ -1,0 +1,17 @@
+{
+  "name": "dnaAnalysis",
+  "version": "0.1.0",
+  "description": "dnaAnalysis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "JSONStream": "^0.10.0",
+    "dna2json": "^0.3.3",
+    "event-stream": "^3.2.1",
+    "genoset-male": "0.0.1"
+  }
+}
